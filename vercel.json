@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.js": {
-      "memory": 1024,
-      "maxDuration": 60
+  "builds": [
+    {
+      "src": "api/extract.js",
+      "use": "@vercel/node"
     }
-  }
+  ]
 }
