@@ -1,13 +1,10 @@
 {
-  "name": "dropbox-zip-api",
+  "name": "syncoder-api",
   "version": "1.0.0",
-  "main": "api/index.js",
-  "scripts": {
-    "start": "vercel dev"
-  },
+  "type": "module",
   "dependencies": {
-    "archiver": "^5.3.1",
-    "cheerio": "^1.0.0-rc.12",
-    "node-fetch": "^3.4.1"
+    "adm-zip": "^0.5.10",
+    "node-fetch": "^3.3.2",
+    "dropbox": "^10.34.0"
   }
 }
